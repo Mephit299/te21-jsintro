@@ -3,7 +3,7 @@ console.log("Hello world")
 let name; // definerar
 firstname = "bob" // tilderar ett värde
 
-let lastname = "bobson" // definerar och tilldelar ett värde
+let lastname = "bobson" // definerar och tilldelar ett värde (deklarera)
 
 let num = 23
 
@@ -16,8 +16,10 @@ let i
 for(let i = 0; i<10; i++){
     const NAME = "Jim"
     console.log(NAME)
+    var trevligt = trevligt
 }
 console.log(i)
+console.log(trevligt)
 
 var skola = "NTI"
 console.log(skola)
